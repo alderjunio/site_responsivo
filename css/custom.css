@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+.bloco{
+    min-height: 100%;
+}
+
+.home{
+    animation: mudarbg 20s infinite;
+    background-image: url('https://img.freepik.com/fotos-premium/um-homem-em-uma-academia-escura-com-uma-barra-nas-costas_903158-45.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+@keyframes mudarbg {
+    40% {background-image:url('https://img.freepik.com/fotos-premium/femea-praticando-musculacao-uma-mulher-forte-levantando-pesos-em-uma-academia_232070-15684.jpg');}
+    80% {background-image:url('https://img.freepik.com/fotos-premium/treinador-pessoal-auxiliando-uma-jovem-musculosa-durante-o-treino-duro-na-academia-ela-esta-fazendo-exercicios-de-prancha-com-peso-pesado_360066-22332.jpg');}
+    100% {background-image:url('https://img.freepik.com/fotos-premium/um-homem-em-uma-academia-escura-com-uma-barra-nas-costas_903158-45.jpg');}
+}
+
+.banner h2{
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.banner p{
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+} 
+
+@media only screen and (min-width: 480px) {
+    
+}
+
+@media only screen and (min-width: 601px) {
+    .banner{
+        padding-top: 4.5rem;
+    }
+    .banner h2{
+        font-size: 4rem;
+    }
+}
+  
+@media only screen and (min-width: 993px) {
+    .banner{
+        padding-top: 5rem;
+    }
+    .banner h2{
+        font-size: 5rem;
+    }
+}
